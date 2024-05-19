@@ -206,5 +206,5 @@ async function FetchThird(companyCode, piyasaDeger) {
     }
 }
 
+setInterval(fetchAndDisplayData, 3 * 60 * 60 * 1000); // Fetch data every 3 hours
 
-fetchAndDisplayData();
